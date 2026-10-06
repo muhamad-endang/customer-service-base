@@ -1,18 +1,25 @@
+# Alur Pemrosesan Kasus
 
-1. copy dan jalankan perintah di bawah ini pada terminal untuk proses pembuatan folder baru
+1. Salin dan jalankan perintah berikut di terminal untuk membuat folder kasus baru:
 
-.\scripts\new-case.ps1 -Slug "nurharis-sukarno" -ClientName "Nurharis Sukarno"
+   ```powershell
+   .\scripts\new-case.ps1 -Slug "nurharis-sukarno" -ClientName "Nurharis Sukarno"
+   ```
 
-2. eksport chat yang banyak, simpan pada folder yang barusan dibuat, di dalam folder `inbox`
+2. Ekspor chat yang diperlukan, lalu simpan hasilnya di folder `inbox` pada folder kasus yang baru dibuat.
 
-3. jalankan: proses kasus `nurharis-sukarno`
+3. Jalankan perintah berikut di Codex:
 
-4. tunggu sampai selesai
+   ```text
+   proses kasus `nurharis-sukarno`
+   ```
 
-5. jika ada chat tambahan ulangi saja eksport chatnya, lalu simpan di folder `inbox`
+4. Tunggu sampai proses selesai.
 
+5. Jika ada chat tambahan, ulangi proses ekspor chat dan simpan hasilnya di folder `inbox`.
 
+## Bantuan Developer
 
+Jika membutuhkan bantuan Developer, jalankan perintah berikut di Codex:
 
-6. jika butuh bantuan developer, silakan jalankan perintah ini di codex
-"buatkan 1 file .md yang akan saya share ke developer untuk diisi"
+> Buatkan 1 file `.md` yang akan saya share ke Developer untuk diisi.
