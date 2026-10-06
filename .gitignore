@@ -1,0 +1,38 @@
+# Secrets / credentials
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.pfx
+*.crt
+credentials*
+credential*
+secrets*
+secret*
+tokens*
+token*
+
+# Local Codex/editor/runtime
+.codex/
+.vscode/settings.local.json
+*.tmp
+*.temp
+*.log
+
+# Raw client evidence: local-only by default
+cases/**/inbox/*
+!cases/**/inbox/.gitkeep
+cases/**/private/*
+cases/**/credentials/*
+cases/**/secrets/*
+
+# Common local OS files
+Thumbs.db
+.DS_Store
+
+# Backups
+*.bak
+*.backup
+*~

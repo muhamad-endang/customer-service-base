@@ -8,14 +8,18 @@
 
 ## 1. Aturan Pengelolaan Knowledge Base
 
-1. File ini menjadi referensi utama untuk brainstorming dan penyusunan penjelasan layanan Webekspres di chat proyek **BELAJAR JADI CUSTOMER SERVICE**.
-2. Setiap ada informasi baru, koreksi, perubahan harga, perubahan SOP, atau penambahan layanan:
-   - buat versi baru secara berurutan;
-   - contoh: `knowledge_base_webekspres_v0.001.md` → `knowledge_base_webekspres_v0.002.md` → `knowledge_base_webekspres_v0.003.md`;
-   - pertahankan informasi lama yang masih berlaku;
-   - tambahkan catatan pada bagian **Changelog**.
-3. Informasi langsung dari pengguna/internal Webekspres diperlakukan sebagai konteks operasional utama.
-4. Jika terdapat perbedaan antara materi katalog lama dengan arahan internal terbaru, gunakan arahan internal terbaru dan catat perubahan pada changelog.
+1. File ini menjadi referensi utama untuk brainstorming dan penyusunan penjelasan layanan Webekspres di proyek **BELAJAR JADI CUSTOMER SERVICE** serta workspace Codex `customer-service-base`.
+2. File ini adalah **living knowledge base**. Pertahankan nama `knowledge_base_webekspres_v0.008.md` dan perbarui isi file yang sama setiap ada informasi reusable baru atau koreksi. Jangan membuat file versi baru hanya karena ada pembaruan konten, kecuali pengguna secara eksplisit meminta **version bump**.
+3. Setiap pembaruan wajib:
+   - memeriksa apakah informasi sudah ada, duplikat, koreksi, atau konflik;
+   - mempertahankan informasi lama yang masih berguna untuk traceability bila relevan;
+   - menandai acuan terbaru bila terjadi koreksi;
+   - menambahkan catatan pada bagian **Changelog**.
+4. Informasi langsung dari pengguna/internal Webekspres diperlakukan sebagai konteks operasional utama.
+5. Jika terdapat perbedaan antara materi katalog lama dengan arahan internal terbaru, gunakan arahan internal terbaru dan catat perubahan pada changelog.
+6. Data yang hanya berlaku untuk satu klien/proyek disimpan pada case terkait dan tidak dimasukkan sebagai aturan global, kecuali menghasilkan pembelajaran/aturan yang reusable lintas klien.
+7. Setiap form atau jawaban Developer harus dievaluasi sebagai calon sumber knowledge baru. Jika reusable, normalisasikan menjadi penjelasan/aturan umum lalu dokumentasikan di file ini. Jangan menyalin percakapan mentah Developer sebagai knowledge global.
+8. Setelah file ini diperbarui di workspace repository, perubahan harus melalui QC, Git commit yang jelas, dan push ke branch utama sesuai aturan Git workspace.
 
 5. Untuk dokumen internal SOP, gunakan urutan interpretasi berikut:
    - **Arahan internal terbaru yang secara eksplisit diberikan pengguna/manajemen** menjadi prioritas tertinggi.
@@ -4051,3 +4055,16 @@ Pembaruan berdasarkan dokumen legal dan administrasi:
 - hierarki keandalan sumber legal dan operasional;
 - aturan CS dalam menggunakan data legal perusahaan.
 
+
+---
+
+## Pembaruan Operasional Living Knowledge Base — 6 Oktober 2026
+
+Arahan internal terbaru menetapkan:
+- `knowledge_base_webekspres_v0.008.md` dipertahankan sebagai living knowledge base utama sampai ada permintaan eksplisit untuk version bump;
+- informasi reusable baru dari CS, layanan, SOP, katalog, teknis umum, legal/administrasi, Developer, atau Manajemen harus dievaluasi dan didokumentasikan;
+- data project-specific tetap berada pada case klien;
+- jawaban Developer yang menghasilkan aturan reusable harus dinormalisasi sebelum masuk knowledge base;
+- pembaruan knowledge base pada repository wajib diakhiri dengan QC, commit, dan push Git.
+
+Pembaruan ini menggantikan aturan awal yang mewajibkan pembuatan file versi baru pada setiap perubahan kecil.
