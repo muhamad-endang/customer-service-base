@@ -117,6 +117,17 @@ Create/update an artifact when the task materially affects:
 
 Simple acknowledgements may be answered directly without creating a report.
 
+## Output Versioning
+
+Do not overwrite an existing Developer output, client-chat draft, or Codex output file when creating a newer version.
+
+- Use the filename format `<nama_file>_v0.001.md` for the first version.
+- Increment the version for each subsequent revision: `_v0.002.md`, `_v0.003.md`, and so on.
+- Before creating a file, inspect the relevant output folder and use the next available version for the same logical artifact.
+- Keep prior versions intact for case continuity and audit history.
+- Versioned outputs must be included in the relevant Git review, QC, commit, and push; do not rely on an untracked replacement file.
+- This rule applies to Developer requests/responses, client-facing chat drafts, internal Codex reports, and other generated Markdown outputs. It does not require versioning `CASE.md`, the living knowledge-base filename, or raw local-only inbox evidence.
+
 ## Git Completion Rule
 If a task creates or updates repository files:
 1. review relevant diff;

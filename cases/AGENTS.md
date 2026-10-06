@@ -31,4 +31,10 @@ Keep request IDs and response relationships explicit.
 ## Outputs
 Permanent output is for material decisions/replies only. Simple acknowledgements do not require an artifact.
 
+- Do not overwrite an existing Developer output, client-chat draft, or Codex output file when creating a newer version.
+- Name the first version `<nama_file>_v0.001.md`, then increment sequentially for later revisions, such as `_v0.002.md` and `_v0.003.md`.
+- Inspect the relevant case folder before creating a new output and use the next available version for the same logical artifact.
+- Preserve all prior versions for continuity and audit history; versioned outputs must be tracked and synchronized through Git.
+- This applies to files under `output/`, `developer/`, `management/`, and other generated Markdown outputs. It does not require versioning `CASE.md` or raw local-only files under `inbox/`.
+
 Never store secrets in committed case files.
