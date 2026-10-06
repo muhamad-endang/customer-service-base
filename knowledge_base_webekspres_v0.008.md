@@ -2728,6 +2728,12 @@ Selalu pastikan: web app, Android, iOS, atau semuanya.
 ## 66.8 Disclaimer sebagai Perlindungan
 Disclaimer digunakan untuk menyamakan ekspektasi, bukan menakut-nakuti.
 
+## 66.9 Emotikon dalam Pesan kepada Klien
+- Emotikon/emoji yang relevan boleh dipertimbangkan untuk membuat pesan terasa hangat dan natural.
+- Sesuaikan dengan konteks dan nada klien; penggunaannya opsional dan secukupnya.
+- Hindari emotikon jika konteksnya serius atau formal, atau jika dapat mengurangi kejelasan dan empati.
+- Emotikon tidak menggantikan penjelasan yang jelas dan akurat.
+
 ---
 
 # 67. Prinsip Wajar, Adil, dan Berorientasi Omzet
@@ -4054,6 +4060,7 @@ Pembaruan berdasarkan dokumen legal dan administrasi:
 - rekening pembayaran pada contoh invoice sebagai data project/admin yang wajib divalidasi ulang sebelum digunakan;
 - hierarki keandalan sumber legal dan operasional;
 - aturan CS dalam menggunakan data legal perusahaan.
+- Panduan komunikasi klien: emotikon/emoji relevan bersifat opsional, mengikuti konteks dan nada klien, serta digunakan secukupnya.
 
 
 ---

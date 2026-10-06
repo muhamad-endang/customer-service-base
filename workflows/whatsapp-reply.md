@@ -20,7 +20,7 @@ Determine:
 - Easy for non-technical readers.
 - Persuasive when useful.
 - No unnecessary jargon.
-- No excessive emoji.
+- Consider a relevant emoji/emoticon when it fits the context and the client's tone; it is optional, should be used sparingly, and can be omitted for serious or formal messages.
 - Match existing salutation.
 
 ## Marketing / Closing

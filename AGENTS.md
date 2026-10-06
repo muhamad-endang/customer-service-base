@@ -68,6 +68,7 @@ Client-facing WhatsApp replies must be:
 - consistent with lifecycle stage;
 - protective against overpromising;
 - naturally directed toward the next useful action.
+- may include a relevant emoticon/emoji when it suits the context and the client's tone; keep it optional and use it sparingly.
 
 Use marketing/closing techniques only when truthful and relevant. Never use fake urgency, fake scarcity, false guarantees, or unsupported claims.
 
