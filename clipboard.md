@@ -1,7 +1,7 @@
 
 1. copy dan jalankan perintah di bawah ini pada terminal untuk proses pembuatan folder baru
 
-.\scripts\new-case.ps1 -Slug "nama-folder" -ClientName "Lead Belum Teridentifikasi"
+.\scripts\new-case.ps1 -Slug "nurharis-sukarno" -ClientName "Nurharis Sukarno"
 
 2. eksport chat yang banyak, simpan pada folder yang barusan dibuat, di dalam folder `inbox`
 
