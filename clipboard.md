@@ -1,1 +1,1 @@
-baca kedua file berikut lalu langsung jalankan perintah yang revelan
+baca kedua file berikut lalu langsung jalankan perintah yang revelan-
