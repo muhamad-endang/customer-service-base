@@ -1,5 +1,7 @@
 baca kedua file berikut lalu langsung jalankan perintah yang revelan
 
-proses kasus andre
+proses kasus `nama-folder`
 
-./scripts/new-case.ps1 -Slug [lead-06102026_1] -ClientName "Triply Tour ID"
+.\scripts\new-case.ps1 -Slug "nama-folder" -ClientName "Nama Klien"
+
+.\scripts\new-case.ps1 -Slug "nama-folder" -ClientName "Lead Belum Teridentifikasi"
