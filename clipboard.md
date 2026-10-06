@@ -10,3 +10,9 @@
 4. tunggu sampai selesai
 
 5. jika ada chat tambahan ulangi saja eksport chatnya, lalu simpan di folder `inbox`
+
+
+
+
+6. jika butuh bantuan developer, silakan jalankan perintah ini di codex
+"buatkan 1 file .md yang akan saya share ke developer untuk diisi"
