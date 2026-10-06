@@ -5,7 +5,7 @@
 
 2. eksport chat yang banyak, simpan pada folder yang barusan dibuat, di dalam folder `inbox`
 
-3. jalankan: proses kasus `nama-folder`
+3. jalankan: proses kasus `nurharis-sukarno`
 
 4. tunggu sampai selesai
 
