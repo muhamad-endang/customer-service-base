@@ -10,7 +10,7 @@
 ## State
 - Lifecycle: LEAD
 - Operational Status: READY_TO_REPLY
-- Current Issue: Developer mengarahkan klien memeriksa email verifikasi registrasi domain uvuktimur.com. Penyebab akses belum terkonfirmasi; validasi teknis untuk penggantian template serta cakupan dan harga khususnya masih menunggu.
+- Current Issue: Klien memperjelas hanya ingin memilih/mengganti template; domain tetap. Klien meminta contoh gambar terlebih dahulu. Kompatibilitas situs existing, status akses, scope, dan harga ganti template belum dikonfirmasi.
 - Last Processed Evidence: inbox/HENORIC 06_10_26.zip dan screenshot chat/katalog yang dibagikan pada 2026-10-07
 - Last Updated: 2026-10-07
 
@@ -21,23 +21,25 @@
 - Harga paket penuh itu bukan konfirmasi harga untuk penggantian template saja; tidak ada harga khusus ganti template yang terkonfirmasi di percakapan.
 - Klien meminta “kembalikan www.uvuktimur.com” karena tidak dapat mengaksesnya. Ekspor juga memuat pengamatan CS bahwa situs tidak bisa diakses, tetapi tidak ada bukti teknis atau diagnosis.
 - Developer (DEV-HENORIC-20261007-001) mengarahkan klien memeriksa email yang dipakai saat membeli domain untuk instruksi verifikasi kepemilikan; jawaban ini belum memastikan diagnosis atau bahwa verifikasi adalah satu-satunya penyebab akses gagal.
-- Klien belum siap membayar dan mengatakan akan menghubungi kembali ketika dana tersedia; pesan terakhir tetap meminta bantuan ganti template.
+- Screenshot chat terbaru: klien menegaskan domain tidak perlu diganti, hanya template; meminta contoh gambar untuk dipilih dan menyatakan siap membayar setelah memilih. Klien menyebut logo sudah tersedia. Ini minat bersyarat, belum persetujuan harga/scope.
+- CS sebelumnya mengaitkan potongan domain dengan pemilihan paket. Klarifikasi diperlukan karena permintaan sekarang hanya penggantian template, bukan pembelian paket website baru.
 
 ## Confirmed Decisions
 - Belum ada persetujuan scope, harga, atau pengerjaan.
 
 ## Pending
-- Klien memeriksa email registrasi dan mencoba kembali akses; jika tetap gagal, minta tangkapan layar/error dan lanjutkan diagnosis.
-- Developer melengkapi validasi kelayakan, prasyarat, risiko, dan cakupan penggantian template.
+- Kirim contoh gambar template portal berita yang memang tersedia dan minta klien memilih.
+- Developer melengkapi validasi kompatibilitas/prasyarat/risiko penggantian template. Status akses website existing masih belum dipastikan.
+- Konfirmasi harga dan scope ganti template dari acuan katalog yang berlaku sebelum menyetujui pengerjaan atau meminta pembayaran.
 
 ## Last Action
-- 2026-10-07: Jawaban Developer diterima untuk langkah verifikasi kontak domain; validasi penggantian template masih belum terjawab. Draf balasan diperbarui.
+- 2026-10-07: Screenshot terbaru menegaskan permintaan template saja dan meminta contoh gambar; klien menyatakan siap membayar setelah memilih. Draf balasan disesuaikan dan klarifikasi potongan paket diperlukan.
 
 ## Next Action
-- Kirim draf balasan v0.003; tunggu hasil klien memeriksa email/verifikasi dan uji akses. Lanjutkan validasi Developer untuk ganti template dan konfirmasi biaya dari katalog terkini sebelum menawarkan pengerjaan.
+- Kirim contoh gambar template yang tersedia bersama klarifikasi bahwa harga paket penuh/potongan domain belum menjadi harga ganti template. Setelah klien memilih, validasi kecocokan teknis dan sampaikan scope serta biaya sebelum meminta persetujuan.
 
 ## References
-- Developer Request/Response: developer/requests/DEV-HENORIC-20261007-001_v0.003.md; developer/responses/DEV-HENORIC-20261007-001_v0.001.md
+- Developer Request/Response: developer/requests/DEV-HENORIC-20261007-001_v0.003.md (validasi ganti template masih menunggu); developer/responses/DEV-HENORIC-20261007-001_v0.001.md
 - Management Request/Response:
 - Active Project Documents: belum ada
 
