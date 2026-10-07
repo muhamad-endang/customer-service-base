@@ -31,8 +31,8 @@
 - Website utama tetap di shared hosting. PSB di VPS dan subdomain.
 - Maintenance 3 bulan setelah live.
 - **PPN dicantumkan** (Webekspres PKP aktif, sesuai PMK 131/2024, tarif efektif 11%).
-- **Nominal final PSB tahun pertama: Rp7.675.200** (Rp8.528.000 setelah diskon 10% untuk full payment).
-- **Harga VPS WTI-6: Rp2.028.000/tahun** (menggunakan harga proposal, bukan katalog terbaru).
+- **Nominal final PSB tahun pertama: Rp8.744.580** (pengembangan Rp5.850.000 setelah diskon 10%, VPS Rp2.028.000 tidak kena diskon, PPN Rp866.580).
+- **Harga VPS WTI-6: Rp2.028.000/tahun** (menggunakan harga proposal, bukan katalog terbaru, tidak terkena diskon 10%).
 - **Dokumen pendamping:** MoU, SLA, dan NDA akan disertakan sebagai jaminan.
 
 ## Pending

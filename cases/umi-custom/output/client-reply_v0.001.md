@@ -17,10 +17,12 @@
 >
 > **Rincian biaya yang sudah final:**
 > • Pengembangan sistem PSB (3 modul): Rp6.500.000
-> • VPS WTI-6 + Backup (1 tahun): Rp2.028.000
-> • **Subtotal (sudah termasuk PPN 11%): Rp8.528.000**
-> • Diskon 10% (pembayaran lunas): -Rp852.800
-> • **Harga final yang harus dibayar: Rp7.675.200**
+> • Diskon 10% (pembayaran lunas): -Rp650.000
+> • **Pengembangan setelah diskon: Rp5.850.000**
+> • VPS WTI-6 + Backup (1 tahun): Rp2.028.000 *(tidak termasuk diskon)*
+> • **Subtotal: Rp7.878.000**
+> • PPN 11%: Rp866.580
+> • **Harga final yang harus dibayar: Rp8.744.580**
 >
 > **Biaya tambahan setiap tahunnya** (perpanjangan):
 > • VPS WTI-6 + Backup: Rp2.028.000/tahun (sudah termasuk PPN)
@@ -50,7 +52,7 @@
 ---
 
 ## Jika Klien Menerima, Langkah Berikutnya:
-1. Kirim invoice baru dengan nominal Rp7.675.200 (setelah diskon)
+1. Kirim invoice baru dengan nominal Rp8.744.580 (pengembangan sudah diskon 10%)
 2. Siapkan MoU, SLA, NDA untuk ditandatangani
 3. Tunggu pembayaran lunas
 4. Setelah konfirmasi pembayaran, masuk antrean Developer untuk meeting analis
