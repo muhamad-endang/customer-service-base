@@ -3,7 +3,7 @@
 1. Salin dan jalankan perintah berikut di terminal untuk membuat folder kasus baru:
 
    ```powershell
-   .\scripts\new-case.ps1 -Slug "HENORIC-" -ClientName "Nurharis Sukarno"
+   .\scripts\new-case.ps1 -Slug "klien-mala-hkgold" -ClientName "Mala-HKGOLD"
    ```
 
 2. Ekspor chat yang diperlukan, lalu simpan hasilnya di folder `inbox` pada folder kasus yang baru dibuat.
