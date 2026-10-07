@@ -9,9 +9,9 @@
 
 ## State
 - Lifecycle: CLOSING (proyek PSB); website utama AFTER_SALES
-- Operational Status: WAITING_MANAGEMENT
-- Current Issue: Klien bertanya apakah pajak wajib, dan keberatan karena nominal invoice berbeda dari proposal (ada pajak dan harga VPS baru) tanpa konfirmasi sebelumnya.
-- Last Processed Evidence: export chat WhatsApp s.d. 7 Okt 2026 11:43 + screenshot (inbox, local-only)
+- Operational Status: READY_TO_REPLY
+- Current Issue: Resolved — Keputusan manajemen sudah diterima. PPN dicantumkan + diskon 10% untuk full payment.
+- Last Processed Evidence: keputusan manajemen 7 Okt 2026
 - Last Updated: 2026-10-07
 
 ## Key Facts
@@ -30,24 +30,31 @@
 - Penamaan PPDB diganti PSB.
 - Website utama tetap di shared hosting. PSB di VPS dan subdomain.
 - Maintenance 3 bulan setelah live.
+- **PPN dicantumkan** (Webekspres PKP aktif, sesuai PMK 131/2024, tarif efektif 11%).
+- **Nominal final PSB tahun pertama: Rp7.675.200** (Rp8.528.000 setelah diskon 10% untuk full payment).
+- **Harga VPS WTI-6: Rp2.028.000/tahun** (menggunakan harga proposal, bukan katalog terbaru).
+- **Dokumen pendamping:** MoU, SLA, dan NDA akan disertakan sebagai jaminan.
 
 ## Pending
-- MGT-UMI-20261007-001: nominal final invoice dan harga VPS yang dipakai. Status PPN sudah terjawab oleh arahan internal 7 Okt: Webekspres PKP aktif, sehingga PPN wajib (KB bagian 100). Yang tersisa: apakah harga proposal diperlakukan sudah termasuk PPN, mengingat CS pernah menyebut "net".
-- Lampirkan invoice 15 Sep (nominal dan item VPS) ke request.
-- Masukkan fitur QR check-in tes ke scope tertulis setelah divalidasi formal oleh Developer.
+- Kirim balasan final (client-reply_v0.001.md) ke Kak Umi via WhatsApp setelah konfirmasi dari tim.
+- Tunggu persetujuan klien atas penawaran diskon + nominal final.
+- Setelah klien approve: siapkan invoice baru (Rp7.675.200), MoU, SLA, NDA untuk ditandatangani.
+- Masukkan fitur QR check-in tes ke scope tertulis setelah divalidasi formal oleh Developer (untuk meeting analis nanti).
 
 ## Last Action
-- 7 Okt 11:19: holding reply soal pajak ("dikonfirmasi ke finance"). Klien: "Baikk d tunggu".
+- 7 Okt 2026: Manajemen memberi keputusan — PPN wajib dicantumkan, diskon 10% untuk full payment, MoU/SLA/NDA akan disertakan.
 
 ## Next Action
-- Tunggu keputusan Finance/Management, lalu kirim Draft A atau B di output/client-reply_v0.001.md.
-- Kirim invoice baru hanya setelah klien menyetujui angka final.
+1. Kirim balasan final dengan penawaran diskon 10% (Rp7.675.200 setelah full payment) ke Kak Umi.
+2. Tunggu persetujuan klien.
+3. Jika disetujui: siapkan invoice, MoU, SLA, NDA.
+4. Setelah pembayaran lunas: schedule meeting Developer untuk analisis detail & mulai antrean pengerjaan.
 
 ## References
-- Developer Request/Response: -
-- Management Request/Response: management/requests/MGT-UMI-20261007-001_v0.001.md
-- Active Project Documents: proposal PSB dan proposal revisi (8 Sep), invoice 15 Sep. Ketiganya belum tersimpan di repo.
-- Client Reply Draft: output/client-reply_v0.001.md
+- Developer Request/Response: —
+- Management Request/Response: management/requests/MGT-UMI-20261007-001_v0.001.md (FINAL — keputusan diterima 7 Okt)
+- Client Reply Draft: output/client-reply_v0.001.md (READY TO SEND)
+- Active Project Documents: proposal PSB revisi, MoU, SLA, NDA (belum diisi; akan disiapkan setelah klien approve)
 
 ## Notes
 - Kredensial hosting/WP pernah dikirim di chat. Jangan disalin ke repo.

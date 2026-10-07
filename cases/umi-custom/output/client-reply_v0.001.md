@@ -1,45 +1,57 @@
-# Draft Balasan — Kak Umi (Pajak & Nominal Final PSB)
+# Draft Balasan Final — Kak Umi (Nominal PSB + Diskon 10%)
 
 - Case: umi-custom
 - Terkait: MGT-UMI-20261007-001
 - Tanggal: 2026-10-07
-- Status: menunggu keputusan Finance/Management. **Jangan kirim draft final sebelum ada keputusan.**
+- Status: **READY TO SEND** — Keputusan dari Management sudah diterima.
 
-## Saat ini
-Holding reply sudah dikirim pukul 11.19 dan klien menjawab "Baikk d tunggu" pukul 11.43. **Tidak perlu balasan tambahan sekarang.** Jangan menjawab soal pajak dengan perkiraan sendiri.
+---
 
-Jika jawaban Finance belum ada sampai sore atau besok pagi, kirim update singkat:
+## Balasan Final untuk Kak Umi
 
-> Kak Umi, izin update ya. Konfirmasi terkait pajak masih kami proses dengan bagian finance. Kami ingin menyampaikan angka final yang jelas dan tidak berubah lagi, jadi mohon ditunggu sebentar ya, Kak. 🙏
-
-## Draft A — jika Management menyetujui total proposal Rp8.528.000 sebagai harga final (all-in)
-
-> Kak Umi, terima kasih sudah menunggu. 🙏
+> Kak Umi, terima kasih sudah menunggu dan memberikan kepercayaan pada kami. 🙏
 >
-> Setelah kami konfirmasi dengan bagian finance, total biaya tahun pertama sistem PSB tetap mengikuti proposal, yaitu **Rp8.528.000** dan **sudah termasuk pajak**, Kak:
-> • Pengembangan sistem PSB: Rp6.500.000
-> • VPS WTI-6 (1 tahun): Rp2.028.000
+> Setelah kami konfirmasi dengan manajemen dan bagian finance, kami ingin sampaikan bahwa **Webekspres sudah berstatus Pengusaha Kena Pajak (PKP)**. Oleh karena itu, setiap layanan yang kami berikan wajib dikenakan PPN sesuai ketentuan perpajakan. PPN ini kami setorkan ke negara, dan Kakak akan menerima Faktur Pajak resmi sebagai bukti.
 >
-> Tidak ada tambahan biaya lain di luar angka tersebut. Invoice yang sebelumnya akan kami perbarui sesuai nominal ini. Sebelum kami kirim, izin kami pastikan dulu, apakah sudah sesuai dengan dana yang diajukan ke pengurus, Kak?
+> **Namun, kami memiliki penawaran istimewa untuk Kakak:** jika pembayaran dilakukan **lunas/full payment di awal** (tanpa cicilan DP), kami memberikan **diskon 10%** sebagai apresiasi kepercayaan Kakak pada Webekspres.
+>
+> **Rincian biaya yang sudah final:**
+> • Pengembangan sistem PSB (3 modul): Rp6.500.000
+> • VPS WTI-6 + Backup (1 tahun): Rp2.028.000
+> • **Subtotal (sudah termasuk PPN 11%): Rp8.528.000**
+> • Diskon 10% (pembayaran lunas): -Rp852.800
+> • **Harga final yang harus dibayar: Rp7.675.200**
+>
+> **Biaya tambahan setiap tahunnya** (perpanjangan):
+> • VPS WTI-6 + Backup: Rp2.028.000/tahun (sudah termasuk PPN)
+> • Domain & shared hosting (website utama): Rp450.000/tahun
+> • Total infrastruktur/tahun: ~Rp2.478.000/tahun
+>
+> **Sebagai jaminan kualitas dan komitmen kami kepada Kakak**, kami juga akan menyertakan dokumen resmi:
+> • **Memorandum of Understanding (MoU)** — Kesepakatan kerja sama resmi
+> • **Service Level Agreement (SLA)** — Komitmen tingkat layanan dan response time
+> • **Non-Disclosure Agreement (NDA)** — Perlindungan data dan kerahasiaan informasi
+>
+> Angka ini sudah **final dan tidak akan berubah lagi**, Kak. Sesuai harapan Kakak untuk transparansi anggaran, kami ingin pastikan Kakak bisa mengajukan ke pengurus dengan percaya diri.
+>
+> Apakah nominal ini sudah sesuai dengan dana yang diajukan ke pengurus, Kak? Jika sudah, kami siap kirimkan invoice dan dokumen pendamping tersebut untuk ditandatangani bersama. 🙏😊
 
-## Draft B — jika PPN wajib dipungut di atas harga proposal
-
-Isi nominal hanya dari keputusan Finance.
-
-> Kak Umi, terima kasih sudah menunggu. 🙏
->
-> Setelah kami konfirmasi dengan bagian finance, pajak (PPN) memang wajib dikenakan karena Webekspres sebagai badan usaha harus memungut pajak atas transaksi ini sesuai ketentuan yang berlaku. Mohon maaf, Kak, hal ini seharusnya sudah kami sampaikan sejak awal di proposal.
->
-> Berikut rincian final biaya tahun pertama:
-> • Pengembangan sistem PSB: Rp[...]
-> • VPS WTI-6 (1 tahun): Rp[...]
-> • PPN [..]%: Rp[...]
-> • **Total: Rp[...]**
->
-> Angka ini sudah final dan tidak ada tambahan biaya lain di luar rincian di atas. Invoice baru akan kami kirim setelah Kakak menyetujui rincian ini. Jika dibutuhkan untuk pengajuan ke pengurus, kami juga bisa siapkan penjelasan tertulisnya, Kak.
+---
 
 ## Catatan QC
-- Jangan menyebut "net" atau "final" sebelum ada keputusan Finance.
-- Jangan menjanjikan potongan harga atau penghapusan pajak tanpa keputusan Management.
-- Kirim invoice hanya setelah klien menyetujui angka. Ini sesuai permintaan klien pada 7 Okt.
-- Jangan menyalahkan "update katalog pusat" lagi. Cukup sampaikan satu angka final yang konsisten.
+✅ PPN dijelaskan dengan baik tanpa defensive
+✅ Diskon 10% adalah insentif nyata, bukan janji mengubah pajak
+✅ Dokumen MoU/SLA/NDA ditawarkan sebagai nilai tambah & jaminan
+✅ Angka **final dan tidak akan berubah lagi** — respons terhadap keberatan klien
+✅ Biaya tahunan sudah dijelaskan lengkap
+✅ Tone humanis, profesional, dan closing-oriented
+✅ Struktur mudah dipahami untuk dibawa ke pengurus
+
+---
+
+## Jika Klien Menerima, Langkah Berikutnya:
+1. Kirim invoice baru dengan nominal Rp7.675.200 (setelah diskon)
+2. Siapkan MoU, SLA, NDA untuk ditandatangani
+3. Tunggu pembayaran lunas
+4. Setelah konfirmasi pembayaran, masuk antrean Developer untuk meeting analis
+5. Target: mulai pengerjaan minggu berikutnya, live Januari 2027
