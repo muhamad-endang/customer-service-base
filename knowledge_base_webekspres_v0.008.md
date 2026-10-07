@@ -1,7 +1,8 @@
 # Knowledge Base PT Webekspres Teknologi Indonesia
 
 **Versi:** v0.008  
-**Tanggal pembaruan:** 6 Oktober 2026  
+**Tanggal pembaruan:** 7 Oktober 2026
+
 **Fungsi file:** Basis pengetahuan untuk brainstorming Customer Service terkait katalog, informasi layanan, syarat, SOP, paket, dan penjelasan layanan PT Webekspres Teknologi Indonesia.
 
 ---
@@ -419,6 +420,7 @@ Gunakan knowledge base ini untuk:
 - menjelaskan tahapan proyek custom;
 - menjelaskan persyaratan Payment Gateway;
 - menyusun redaksi WhatsApp yang persuasif, humanis, singkat, dan tetap akurat;
+- utamakan balasan yang langsung pada inti dan ringkas tanpa menghilangkan informasi material, pertanyaan penting, batasan, atau langkah berikutnya;
 - menjaga positioning Webekspres sebagai PT/vendor profesional dengan dukungan teknis dan proses kerja terstruktur.
 
 ---
@@ -1497,6 +1499,13 @@ FAQ menyebut pengingat masa berlaku domain/website dapat dikirim melalui email d
 
 ## 35.4 Ganti Domain
 Pergantian domain diperbolehkan tetapi dikenakan biaya tambahan karena membutuhkan pemesanan domain baru.
+
+## 35.5 Verifikasi Kontak Domain gTLD
+Untuk domain gTLD seperti `.com`, registrar dapat meminta verifikasi kontak registran setelah registrasi baru, transfer masuk, atau perubahan data registran. Kanal dan instruksi verifikasi mengikuti registrar; jangan menyimpulkan semua gangguan akses domain pasti disebabkan verifikasi yang belum selesai.
+
+Jika Developer mengarahkan verifikasi untuk suatu kasus, minta klien memeriksa email yang digunakan saat membeli/mengelola domain, termasuk folder spam, lalu mengikuti instruksi dari registrar. Jika pesan tidak ditemukan atau tautannya tidak berlaku, klien perlu meminta status atau pengiriman ulang langsung kepada registrar. Setelah verifikasi, uji kembali akses; bila masih gagal, lanjutkan diagnosis domain, DNS, SSL, hosting, atau website.
+
+ICANN menjelaskan registrar terakreditasi perlu memverifikasi email atau nomor telepon kontak registran untuk peristiwa tertentu; jika verifikasi tidak selesai, registrar dapat melakukan verifikasi manual atau menangguhkan registrasi sampai informasi terverifikasi. Lihat [Registration Data Accuracy Obligations](https://www.icann.org/resources/pages/registration-data-accuracy-obligations-gdpr-2021-06-14-en). Ketentuan dan tampilan pesan aktual tetap mengikuti registrar.
 
 ---
 
@@ -4075,3 +4084,7 @@ Arahan internal terbaru menetapkan:
 - pembaruan knowledge base pada repository wajib diakhiri dengan QC, commit, dan push Git.
 
 Pembaruan ini menggantikan aturan awal yang mewajibkan pembuatan file versi baru pada setiap perubahan kecil.
+
+## Tambahan — 7 Oktober 2026
+- Panduan verifikasi kontak registran domain gTLD, termasuk langkah aman untuk meminta klien mengecek email registrar dan batas agar penyebab gangguan akses tidak diasumsikan sebelum diagnosis.
+- Panduan gaya balasan WhatsApp: utamakan redaksi yang langsung pada inti dan ringkas sambil mempertahankan semua informasi material, pertanyaan penting, batasan, dan langkah berikutnya.
