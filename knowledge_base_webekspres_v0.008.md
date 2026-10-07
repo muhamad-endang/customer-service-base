@@ -4088,3 +4088,18 @@ Pembaruan ini menggantikan aturan awal yang mewajibkan pembuatan file versi baru
 ## Tambahan — 7 Oktober 2026
 - Panduan verifikasi kontak registran domain gTLD, termasuk langkah aman untuk meminta klien mengecek email registrar dan batas agar penyebab gangguan akses tidak diasumsikan sebelum diagnosis.
 - Panduan gaya balasan WhatsApp: utamakan redaksi yang langsung pada inti dan ringkas sambil mempertahankan semua informasi material, pertanyaan penting, batasan, dan langkah berikutnya.
+- Aturan konsistensi harga, pajak, dan invoice untuk proposal custom (lihat bagian 99).
+
+---
+
+# 99. Konsistensi Harga, Pajak, dan Invoice pada Proposal Custom
+
+**Status:** aturan CS berdasarkan kasus berulang (Oktober 2026). Status PPN/PKP dan perlakuan pajak per transaksi tetap mengikuti Finance.
+
+1. Setiap angka total yang dikirim ke klien (chat, proposal, revisi) harus menyatakan status pajaknya secara eksplisit: **belum termasuk PPN** atau **sudah termasuk PPN**.
+2. Jangan menyebut harga "net", "final", atau "sudah semua" sebelum Finance mengonfirmasi perlakuan pajaknya.
+3. CS tidak boleh menjawab sendiri pertanyaan "apakah wajib pajak?" atau menjanjikan pajak dihapus. Kirim holding reply, lalu eskalasikan ke Finance/Management.
+4. Harga VPS/infrastruktur pihak ketiga yang dikutip di proposal harus mencantumkan masa berlaku harga. Jika katalog berubah sebelum invoice terbit, konfirmasikan perubahan itu ke klien dan minta persetujuan **sebelum** invoice dikirim. Jangan langsung mengubah item atau nominal di invoice.
+5. Invoice harus konsisten dengan proposal terakhir yang disetujui. Jika ada selisih, kirim rincian perubahan dan alasannya terlebih dahulu.
+6. Klien lembaga (yayasan, pesantren, sekolah, instansi) sering memakai sistem pengajuan dana ke pengurus. Angka yang berubah setelah pengajuan berisiko menunda atau membatalkan deal. Prioritaskan satu angka final tertulis.
+7. Tawaran "harga masih bisa disesuaikan" hanya boleh disampaikan jika Management sudah menetapkan batas penyesuaiannya.
