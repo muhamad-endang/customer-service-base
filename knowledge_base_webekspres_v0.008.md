@@ -1498,6 +1498,13 @@ FAQ menyebut pengingat masa berlaku domain/website dapat dikirim melalui email d
 ## 35.4 Ganti Domain
 Pergantian domain diperbolehkan tetapi dikenakan biaya tambahan karena membutuhkan pemesanan domain baru.
 
+## 35.5 Verifikasi Kontak Domain gTLD
+Untuk domain gTLD seperti `.com`, registrar dapat meminta verifikasi kontak registran setelah registrasi baru, transfer masuk, atau perubahan data registran. Kanal dan instruksi verifikasi mengikuti registrar; jangan menyimpulkan semua gangguan akses domain pasti disebabkan verifikasi yang belum selesai.
+
+Jika Developer mengarahkan verifikasi untuk suatu kasus, minta klien memeriksa email yang digunakan saat membeli/mengelola domain, termasuk folder spam, lalu mengikuti instruksi dari registrar. Jika pesan tidak ditemukan atau tautannya tidak berlaku, klien perlu meminta status atau pengiriman ulang langsung kepada registrar. Setelah verifikasi, uji kembali akses; bila masih gagal, lanjutkan diagnosis domain, DNS, SSL, hosting, atau website.
+
+ICANN menjelaskan registrar terakreditasi perlu memverifikasi email atau nomor telepon kontak registran untuk peristiwa tertentu; jika verifikasi tidak selesai, registrar dapat melakukan verifikasi manual atau menangguhkan registrasi sampai informasi terverifikasi. Lihat [Registration Data Accuracy Obligations](https://www.icann.org/resources/pages/registration-data-accuracy-obligations-gdpr-2021-06-14-en). Ketentuan dan tampilan pesan aktual tetap mengikuti registrar.
+
 ---
 
 # 36. Refund Policy
@@ -4075,3 +4082,6 @@ Arahan internal terbaru menetapkan:
 - pembaruan knowledge base pada repository wajib diakhiri dengan QC, commit, dan push Git.
 
 Pembaruan ini menggantikan aturan awal yang mewajibkan pembuatan file versi baru pada setiap perubahan kecil.
+
+## Tambahan — 7 Oktober 2026
+- Panduan verifikasi kontak registran domain gTLD, termasuk langkah aman untuk meminta klien mengecek email registrar dan batas agar penyebab gangguan akses tidak diasumsikan sebelum diagnosis.
