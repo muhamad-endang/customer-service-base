@@ -31,7 +31,7 @@
 - Klien menjawab “2 cabang” saat ditanya rencana jumlah cabang penggunaan aplikasi.
 
 ## Next Action
-- Kirim draf balasan v0.003 untuk mengonfirmasi sumber screenshot, fitur prioritas, dan pengelolaan transaksi/laporan dua cabang.
+- Kirim draf balasan v0.004 untuk mengonfirmasi sumber screenshot, fitur prioritas, dan pengelolaan transaksi/laporan dua cabang.
 
 ## References
 - Developer Request/Response:

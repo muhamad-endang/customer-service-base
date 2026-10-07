@@ -1,7 +1,8 @@
 # Knowledge Base PT Webekspres Teknologi Indonesia
 
 **Versi:** v0.008  
-**Tanggal pembaruan:** 6 Oktober 2026  
+**Tanggal pembaruan:** 7 Oktober 2026
+
 **Fungsi file:** Basis pengetahuan untuk brainstorming Customer Service terkait katalog, informasi layanan, syarat, SOP, paket, dan penjelasan layanan PT Webekspres Teknologi Indonesia.
 
 ---
@@ -419,6 +420,7 @@ Gunakan knowledge base ini untuk:
 - menjelaskan tahapan proyek custom;
 - menjelaskan persyaratan Payment Gateway;
 - menyusun redaksi WhatsApp yang persuasif, humanis, singkat, dan tetap akurat;
+- utamakan balasan yang langsung pada inti dan ringkas tanpa menghilangkan informasi material, pertanyaan penting, batasan, atau langkah berikutnya;
 - menjaga positioning Webekspres sebagai PT/vendor profesional dengan dukungan teknis dan proses kerja terstruktur.
 
 ---
@@ -4085,3 +4087,4 @@ Pembaruan ini menggantikan aturan awal yang mewajibkan pembuatan file versi baru
 
 ## Tambahan — 7 Oktober 2026
 - Panduan verifikasi kontak registran domain gTLD, termasuk langkah aman untuk meminta klien mengecek email registrar dan batas agar penyebab gangguan akses tidak diasumsikan sebelum diagnosis.
+- Panduan gaya balasan WhatsApp: utamakan redaksi yang langsung pada inti dan ringkas sambil mempertahankan semua informasi material, pertanyaan penting, batasan, dan langkah berikutnya.
