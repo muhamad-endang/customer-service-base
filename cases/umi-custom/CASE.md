@@ -32,7 +32,7 @@
 - Maintenance 3 bulan setelah live.
 
 ## Pending
-- MGT-UMI-20261007-001: keputusan PPN, nominal final invoice, dan harga VPS yang dipakai.
+- MGT-UMI-20261007-001: nominal final invoice dan harga VPS yang dipakai. Status PPN sudah terjawab oleh arahan internal 7 Okt: Webekspres PKP aktif, sehingga PPN wajib (KB bagian 100). Yang tersisa: apakah harga proposal diperlakukan sudah termasuk PPN, mengingat CS pernah menyebut "net".
 - Lampirkan invoice 15 Sep (nominal dan item VPS) ke request.
 - Masukkan fitur QR check-in tes ke scope tertulis setelah divalidasi formal oleh Developer.
 

@@ -3885,6 +3885,8 @@ Jika klien meminta NPWP perusahaan untuk:
 - administrasi perusahaan,
 gunakan data NPWP yang sesuai dokumen legal dan, jika dibutuhkan, lampirkan salinan dokumen melalui kanal internal yang diizinkan.
 
+**Status PKP (arahan internal 7 Oktober 2026):** PT Webekspres Teknologi Indonesia **sudah aktif sebagai Pengusaha Kena Pajak (PKP)** dan mencantumkan PPN pada invoice layanannya. Lihat bagian 100.
+
 ---
 
 # 93. NIB PT Webekspres Teknologi Indonesia
@@ -4089,17 +4091,99 @@ Pembaruan ini menggantikan aturan awal yang mewajibkan pembuatan file versi baru
 - Panduan verifikasi kontak registran domain gTLD, termasuk langkah aman untuk meminta klien mengecek email registrar dan batas agar penyebab gangguan akses tidak diasumsikan sebelum diagnosis.
 - Panduan gaya balasan WhatsApp: utamakan redaksi yang langsung pada inti dan ringkas sambil mempertahankan semua informasi material, pertanyaan penting, batasan, dan langkah berikutnya.
 - Aturan konsistensi harga, pajak, dan invoice untuk proposal custom (lihat bagian 99).
+- Status PKP aktif PT Webekspres, dasar PPN (PMK 131/2024, DPP 11/12 = efektif 11%), aturan invoice/faktur, kasus khusus (lembaga pendidikan, PPh 23, pemungut PPN), dan redaksi klien (lihat bagian 100).
 
 ---
 
 # 99. Konsistensi Harga, Pajak, dan Invoice pada Proposal Custom
 
-**Status:** aturan CS berdasarkan kasus berulang (Oktober 2026). Status PPN/PKP dan perlakuan pajak per transaksi tetap mengikuti Finance.
+**Status:** aturan CS berdasarkan kasus berulang (Oktober 2026). Status PKP dan dasar PPN dijelaskan di bagian 100. Nominal final dan kasus khusus (pemungut PPN, potongan PPh 23, harga sudah termasuk PPN) tetap divalidasi Finance.
 
 1. Setiap angka total yang dikirim ke klien (chat, proposal, revisi) harus menyatakan status pajaknya secara eksplisit: **belum termasuk PPN** atau **sudah termasuk PPN**.
 2. Jangan menyebut harga "net", "final", atau "sudah semua" sebelum Finance mengonfirmasi perlakuan pajaknya.
-3. CS tidak boleh menjawab sendiri pertanyaan "apakah wajib pajak?" atau menjanjikan pajak dihapus. Kirim holding reply, lalu eskalasikan ke Finance/Management.
+3. Pertanyaan "apakah wajib pajak?" boleh dijawab CS sesuai bagian 100: **ya, PPN wajib** karena Webekspres sudah PKP. CS tetap tidak boleh menjanjikan pajak dihapus. Nominal final, penyerapan PPN ke harga, dan kasus khusus harus dikonfirmasi Finance/Management.
 4. Harga VPS/infrastruktur pihak ketiga yang dikutip di proposal harus mencantumkan masa berlaku harga. Jika katalog berubah sebelum invoice terbit, konfirmasikan perubahan itu ke klien dan minta persetujuan **sebelum** invoice dikirim. Jangan langsung mengubah item atau nominal di invoice.
 5. Invoice harus konsisten dengan proposal terakhir yang disetujui. Jika ada selisih, kirim rincian perubahan dan alasannya terlebih dahulu.
 6. Klien lembaga (yayasan, pesantren, sekolah, instansi) sering memakai sistem pengajuan dana ke pengurus. Angka yang berubah setelah pengajuan berisiko menunda atau membatalkan deal. Prioritaskan satu angka final tertulis.
 7. Tawaran "harga masih bisa disesuaikan" hanya boleh disampaikan jika Management sudah menetapkan batas penyesuaiannya.
+
+---
+
+# 100. Status PKP Webekspres dan PPN pada Invoice Layanan
+
+**Status:** arahan internal terbaru (7 Oktober 2026): PT Webekspres Teknologi Indonesia **sudah aktif sebagai PKP**. Karena itu, invoice layanan **wajib mencantumkan PPN**. Ringkasan regulasi di bawah adalah hasil riset publik per Oktober 2026 dan **bukan nasihat pajak**. Jika ada perbedaan, ikuti Finance/konsultan pajak dan regulasi terbaru DJP.
+
+**Data internal yang belum tercatat:** nomor dan tanggal Surat Pengukuhan PKP (SPPKP) serta tanggal mulai PPN dicantumkan di invoice. Lengkapi dari Finance. Jangan mengarang data ini ke klien.
+
+## 100.1 Istilah Dasar (untuk dijelaskan ke klien awam)
+- **PPN (Pajak Pertambahan Nilai):** pajak atas penyerahan barang/jasa yang ditanggung pembeli. Penjual yang berstatus PKP memungut PPN dari pembeli lalu menyetorkannya ke negara.
+- **PKP (Pengusaha Kena Pajak):** pengusaha yang sudah dikukuhkan DJP. PKP **wajib** memungut, menyetor, dan melaporkan PPN serta menerbitkan **Faktur Pajak** untuk setiap penyerahan barang/jasa kena pajak.
+- **DPP (Dasar Pengenaan Pajak):** nilai yang dipakai untuk menghitung pajak.
+- **Faktur Pajak:** bukti pungutan PPN yang dibuat di sistem DJP (Coretax). Faktur Pajak berbeda dari invoice tagihan.
+
+## 100.2 Dasar Hukum Ringkas
+- **UU PPN, sebagaimana diubah UU 7/2021 (UU HPP):** PKP wajib memungut PPN atas penyerahan Jasa Kena Pajak dan wajib membuat Faktur Pajak.
+- **PMK 197/PMK.03/2013:** pengusaha dengan omzet di atas Rp4,8 miliar/tahun wajib dikukuhkan sebagai PKP. Pengusaha di bawah batas itu boleh memilih menjadi PKP. Setelah dikukuhkan, seluruh kewajiban PPN berlaku penuh tanpa melihat besar omzet.
+- **PMK 131/2024 (berlaku 1 Januari 2025, masih berlaku 2026):** tarif PPN 12%. Untuk barang/jasa **non-mewah**, termasuk jasa pembuatan website/aplikasi, hosting, domain, dan VPS, DPP memakai **nilai lain 11/12 × harga jual**. Akibatnya **PPN efektif = 11% dari harga jual**.
+- **PER-11/PJ/2025:** ketentuan pembuatan Faktur Pajak, termasuk Faktur Pajak uang muka dan pelunasan.
+- Sejak 2025, Faktur Pajak dibuat melalui **Coretax DJP** (atau e-Faktur/PJAP yang terintegrasi). Nomor seri faktur diberikan otomatis oleh sistem.
+
+## 100.3 Cara Hitung
+**Harga belum termasuk PPN (default Webekspres):**
+- PPN = 12% × (11/12 × harga) = **11% × harga**.
+- Contoh: harga Rp1.000.000 → PPN Rp110.000 → **total Rp1.110.000**.
+- Di invoice dan Faktur Pajak, tarif tertulis 12% dengan DPP nilai lain 11/12. Jumlah rupiahnya tetap setara 11%. Jika klien bingung "kok tertulis 12%?", jelaskan bahwa nominalnya tetap 11% dari harga.
+
+**Harga sudah termasuk PPN (hanya jika disetujui Finance/Management):**
+- Harga sebelum pajak = harga total × 100/111.
+- Contoh: total Rp1.110.000 → harga sebelum pajak Rp1.000.000 dan PPN Rp110.000.
+- Konsekuensinya, pendapatan bersih Webekspres turun sekitar 9,9% dibanding harga yang belum termasuk PPN. Karena itu, CS tidak boleh menawarkan "sudah termasuk PPN" tanpa persetujuan.
+
+**DP/termin:** PPN dihitung pada setiap pembayaran. Saat DP diterima, Faktur Pajak uang muka dibuat atas nilai DP. Saat pelunasan, dibuat Faktur Pajak pelunasan.
+- Contoh: total kontrak Rp1.000.000 + PPN Rp110.000 = Rp1.110.000.
+- DP 50% = Rp555.000 (Rp500.000 + PPN Rp55.000), pelunasan Rp555.000.
+
+## 100.4 Hal yang Wajib Konsisten
+1. **Semua harga katalog, penawaran, proposal, dan chat dianggap belum termasuk PPN**, kecuali Finance menetapkan lain. Tulis secara eksplisit, misalnya "Rp6.500.000 (belum termasuk PPN 11%)".
+2. Setiap total di proposal harus menampilkan tiga baris: **subtotal, PPN, total yang dibayar**. Jangan hanya menampilkan subtotal lalu PPN baru muncul di invoice.
+3. Jangan menyebut harga "net" atau "sudah semua" untuk angka yang belum termasuk PPN.
+4. Rincian DP/pelunasan di chat harus memakai angka yang sudah termasuk PPN, sama dengan invoice.
+5. Biaya tahunan (perpanjangan domain, hosting, VPS, maintenance) juga dikenakan PPN saat ditagih. Sebutkan hal ini ketika menyampaikan biaya tahunan.
+
+## 100.5 Kasus Khusus yang Perlu Dicek ke Finance
+- **Klien lembaga pendidikan/pesantren/yayasan:** jasa pendidikan **yang mereka berikan** memang dibebaskan dari PPN, tetapi fasilitas itu **tidak berlaku untuk jasa yang mereka beli dari vendor**. Pembelian website/sistem dari PKP tetap dikenakan PPN, dan lembaga tersebut umumnya tidak dapat mengkreditkannya. Jangan menjanjikan bebas PPN karena klien berstatus lembaga pendidikan/sosial/keagamaan.
+- **Klien badan (PT/CV/yayasan/instansi) yang memotong PPh 23:** jasa pembuatan/pengelolaan website dan jasa software termasuk objek PPh 23 tarif 2% dari nilai sebelum PPN (PMK 141/2015). Klien seperti ini bisa mentransfer lebih kecil dari tagihan dan wajib memberikan **bukti potong**. Ini berbeda dari PPN. CS tidak boleh menyetujui transfer dipotong sebelum Finance mengonfirmasi, dan wajib meminta bukti potongnya.
+- **Instansi pemerintah/BUMN dan pemungut PPN lain:** PPN bisa dipungut dan disetor langsung oleh pembeli. Mekanisme pembayaran dan fakturnya berbeda. Eskalasikan ke Finance sebelum invoice.
+- **Data Faktur Pajak:** untuk pembeli badan, minta **nama sesuai NPWP, NPWP 16 digit/NITKU, dan alamat**. Untuk pembeli perorangan, minta **NIK/NPWP, nama, dan alamat sesuai KTP**. Nama di invoice sebaiknya sama dengan identitas pajak pembeli. Kesalahan NITKU pembeli tidak bisa diperbaiki lewat faktur pengganti.
+- **Klien meminta "tanpa PPN"/"tanpa faktur":** **tidak bisa**. PKP wajib memungut PPN dan membuat Faktur Pajak. Yang bisa dipertimbangkan Management hanya penyesuaian harga (misalnya total sudah termasuk PPN), bukan menghapus pajak.
+
+## 100.6 Redaksi Klien Siap Pakai
+**"Apakah wajib dikenakan pajak?"**
+> Betul, Kak. PT Webekspres Teknologi Indonesia sudah terdaftar sebagai Pengusaha Kena Pajak (PKP), sehingga setiap layanan yang kami tagihkan wajib dikenakan PPN sesuai ketentuan perpajakan yang berlaku. Untuk jasa seperti ini, PPN-nya sebesar 11% dari nilai layanan. PPN ini kami setorkan ke negara, dan Kakak juga akan menerima Faktur Pajak resmi sebagai bukti. 🙏
+
+**"Kok di invoice tertulis 12%?"**
+> Sesuai aturan terbaru, tarif PPN memang tertulis 12%, tetapi untuk jasa non-mewah perhitungannya memakai dasar 11/12 dari harga. Jadi nominal yang dibayarkan tetap setara 11% dari nilai layanan, Kak.
+
+**"Bisa tanpa pajak?"**
+> Mohon maaf, Kak, karena kami sudah berstatus PKP, PPN wajib kami pungut dan laporkan untuk setiap transaksi. Jadi tidak bisa ditiadakan. Namun kami bisa bantu jelaskan rinciannya supaya angka yang Kakak ajukan sudah final dan tidak berubah lagi. 🙏
+
+**"Lembaga kami pendidikan/pesantren, apakah bebas PPN?"**
+> Pembebasan PPN untuk lembaga pendidikan berlaku untuk jasa pendidikan yang diberikan lembaga, Kak. Untuk pembelian layanan dari vendor seperti pembuatan website/sistem, PPN tetap dikenakan sesuai ketentuan. 🙏
+
+**Saat menyampaikan harga:**
+> Biaya pengembangan Rp[X] (belum termasuk PPN 11%). Dengan PPN Rp[Y], total yang dibayarkan menjadi **Rp[Z]**.
+
+**Larangan:**
+- Jangan menyebut tarif pajak lain.
+- Jangan menjanjikan pengembalian pajak.
+- Jangan menyalahkan "aturan baru" untuk menutupi kelalaian mencantumkan PPN di penawaran. Jika PPN lupa dicantumkan sejak awal, akui secara singkat lalu eskalasikan ke Finance/Management untuk keputusan harga.
+
+## 100.7 Sumber Riset (Oktober 2026)
+- PMK 131/2024: https://www.pajak.go.id/en/node/113440 ; https://news.ddtc.co.id/berita/nasional/1807939
+- Tarif PPN 2026 tidak berubah: https://news.ddtc.co.id/berita/nasional/1812992
+- Batas PKP Rp4,8 miliar (PMK 197/2013): https://www.pajak.go.id/en/node/8899
+- Faktur Pajak uang muka & pelunasan (PER-11/PJ/2025): https://www.pajak.go.id/en/node/117951
+- Coretax/e-Faktur: https://www.online-pajak.com/tentang-efaktur-ppn/aplikasi-ppn/
+- Jasa pendidikan dibebaskan PPN dan pajak masukannya tidak dapat dikreditkan: https://news.ddtc.co.id/review/konsultasi/44369/jasa-pendidikan-bebas-ppn-bagaimana-implikasinya
+- PPh 23 jasa website 2% (PMK 141/2015): https://x.com/kring_pajak/status/1748165691721887787
+- Identitas pembeli pada Faktur Pajak: https://news.ddtc.co.id/berita/nasional/1804265 ; https://news.ddtc.co.id/berita/nasional/1811670
