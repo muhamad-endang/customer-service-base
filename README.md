@@ -2,6 +2,22 @@
 
 Workspace Codex + VS Code untuk pekerjaan Customer Service Webekspres.
 
+## Pendahuluan
+
+Project ini adalah workspace operasional internal PT Webekspres Teknologi Indonesia untuk membantu Customer Service (CS) menangani komunikasi dan tindak lanjut klien secara terstruktur. Project ini bukan aplikasi yang digunakan langsung oleh klien, melainkan pusat kerja berbasis dokumentasi, template, workflow, dan script yang mendukung proses CS dari awal sampai akhir.
+
+Tujuan utamanya adalah menjaga agar setiap kasus memiliki konteks yang lengkap, sumber informasi yang jelas, riwayat yang berkesinambungan, serta tindakan lanjutan yang dapat ditelusuri. Dengan workspace ini, CS dapat:
+
+- menyimpan dan melacak satu kasus dalam satu folder klien;
+- memproses screenshot, chat, dokumen, dan evidence terbaru;
+- menggunakan knowledge base Webekspres sebagai referensi layanan, paket, kebijakan, dan SOP;
+- menyusun balasan klien yang akurat dan aman tanpa mengarang informasi;
+- mengeskalasi pertanyaan teknis kepada Developer atau keputusan bisnis kepada Manajemen;
+- mendokumentasikan output, keputusan, kebutuhan, progres, testing, dan tindak lanjut proyek;
+- melakukan pengecekan kualitas (QC) serta menjaga perubahan repository melalui Git.
+
+Alur kerjanya menghubungkan evidence kasus dengan `CASE.md`, knowledge base, workflow, template, dan output. Setiap permintaan dinilai terlebih dahulu berdasarkan kelengkapan data dan kewenangan CS: dapat langsung dijawab, perlu batasan atau disclaimer, atau harus dieskalasi sebelum memberikan jawaban definitif. Dengan demikian, project ini digunakan sebagai sistem pendukung kerja CS dan pengelolaan pengetahuan, bukan sebagai pengganti keputusan Developer, Manajemen, atau persetujuan klien.
+
 ## Cheat Sheet — Cara Pakai Harian
 
 ### Jalur tercepat
